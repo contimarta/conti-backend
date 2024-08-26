@@ -18,3 +18,12 @@
 - `"/api"` routes: 
     1. `post("/submit", auth, getCharacterCount)`: this route returns the length of a given string. If the user is logged in, it moreover stores the result as a new StringLength.
     2. `get("/average", auth, getAverageValue)`: if the user is logged in, it retrieves all the string lengths stored for them, calculates the average, and returns it.
+
+### Screenshots:
+
+Here's a screenshot of the backendDB users collection:
+![Front End screenshot](screenshots/database.png)
+
+Here's a screenshot of the Front End when a user logs in:
+![Front End screenshot](screenshots/frontend.png)
+
