@@ -3,7 +3,7 @@
 ## Getting Started
 
 1. Make sure that [node](https://nodejs.org/en) is installed on your computer. If node is not installed, install it with the [Node Version Manager](https://github.com/nvm-sh/nvm?tab=readme-ov-file#long-term-support) using the `nvm install --lts` command.
-2. In a terminal, go to the root of this folder and install the dependencies for the frontend app by running the command `npm install`. This will create the folder 'node_modules'.
+2. Install the dependencies for the app by running the command `npm install`. This will create the folder 'node_modules'.
 3. To start the Express Server, you need to run the `npm run dev` command, which uses Typescript Execute (tsx) to run Typescript. Alternatively, you can run `npm run build` to compile the Typescript project with tsc (it uses the config in tsconfig.json). You can then run `npm start` to run the Express Server. The MongoDB database is stored in the cloud using a MongoDB Atlas cluster. The application is connected to the cluster through a connection string, so you do not need to install MongoDB.
 4. You can run `npm test` command to run the server tests.
 5. I have added .env variables so that testing and development run in different databases. The tests are done in the "test" database instead of "backendDB", so that they are done in a controlled environment. 
